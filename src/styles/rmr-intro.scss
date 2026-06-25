@@ -1,0 +1,23 @@
+body {
+  --rmr-intro-duration: 0.5s;
+}
+
+
+
+body.rmr-js .rmr-intro {
+
+  opacity: 0;
+  transform: translateY(5vh);
+  visibility: hidden;
+  transition:
+    opacity var(--rmr-intro-duration) ease-in-out,
+    transform var(--rmr-intro-duration) ease-in-out,
+    visibility var(--rmr-intro-duration) ease-in-out;
+  will-change: opacity, transform, visibility;
+
+  &.rmr-intersecting {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+}

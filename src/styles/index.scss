@@ -1,0 +1,16 @@
+// @import "../../node_modules/rmr-util/src/styles/_rmr-vars.scss";
+ @import "./rmr-intro.scss";
+
+/*
+  override styles from man.css and other page-specific styles
+*/
+
+body {
+
+}
+
+footer {
+  margin-top: 3000px;
+  padding: 100px;
+  background: red;
+}

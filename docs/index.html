@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>rmr-intro</title>
+<!--   <link rel="stylesheet" type="text/css" href="https://davidfmiller.github.io/man/man.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="./build/index.css?bust=0">
+<!--   <link rel="stylesheet" type="text/css" href="./build/index.css?bust=0"> -->
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="mask-icon" href="favicon.svg" color="#d0021b">
+
+  <meta property="og:title" content="rmr-carousel">
+  <meta property="og:email" content="davidfmiller@me.com">
+  <meta property="og:url" content="https://davidfmiller.github.io/rmr-intro">
+  <meta property="fb:admins" content="eldaverino">
+  <meta property="og:image" content="./og-image.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div id="man">
+    <h1 class="rmr-intro"><i>👋</i> <a href="https://github.com/davidfmiller/rmr-intro">rmr-intro</a></h1>
+
+
+
+  <footer class="rmr-intro">
+    <p>Hosted on <a href="https://github.com/davidfmiller/rmr-intro">GitHub</a>.</p>
+  </footer>
+
+  </div>
+
+
+  <script src="https://davidfmiller.github.io/man/man.js"></script>
+  <script src="./build/rmr-intro.bundle.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.remove('rmr-nojs');
+    document.body.classList.add('rmr-js');
+
+
+    window.Intro();
+  });
+  </script>
+</html>
